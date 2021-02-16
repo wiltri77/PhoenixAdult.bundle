@@ -162,6 +162,7 @@ import networkPornCZ
 import networkTopWebModels
 import siteMyDirtyHobby
 import networkMetadataAPI
+import siteExposedWhores
 
 searchSites = {
     0: ('BlackedRaw', 'https://www.blackedraw.com', '/api'),
@@ -1418,6 +1419,7 @@ searchSites = {
     1251: ('Not My Grandpa', 'https://www.notmygrandpa.com', '/movies'),
     1252: ('AmateurBoxxx', 'https://tour.amateurboxxx.com', '/search.php?query='),
     1253: ('AnalOnly', 'https://tour.analonly.com', '/view/'),
+    1254: ('Exposed Whores', 'https://exposedwhores.com', '/new-tour/'),
 }
 
 abbreviations = (
@@ -2639,5 +2641,9 @@ def getProviderFromSiteNum(siteNum):
         # Deviante
         elif (1238 <= siteNum <= 1243):
             provider = network1service
+
+        # Exposed Whores
+        elif siteNum == 1254:
+            provider = siteExposedWhores
 
     return provider
