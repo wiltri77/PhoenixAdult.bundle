@@ -1419,7 +1419,9 @@ searchSites = {
     1251: ('Not My Grandpa', 'https://www.notmygrandpa.com', '/movies'),
     1252: ('AmateurBoxxx', 'https://tour.amateurboxxx.com', '/search.php?query='),
     1253: ('AnalOnly', 'https://tour.analonly.com', '/view/'),
-    1254: ('Exposed Whores', 'https://exposedwhores.com', '/new-tour/'),
+    1254: ('Exposed Whores', 'https://exposedwhores.com/new-tour', '/search.php?query='),
+    1255: ('She Seduced Me', 'https://www.sheseducedme.com', '/search.php?query='),
+    1256: ('Family Swap', 'https://nubiles-porn.com', '/video/website/52/'),
 }
 
 abbreviations = (
@@ -1979,7 +1981,7 @@ def getProviderFromSiteNum(siteNum):
             provider = networkKink
 
         # Nubiles
-        elif (525 <= siteNum <= 545) or (755 <= siteNum <= 756) or siteNum == 766 or (995 <= siteNum <= 996):
+        elif (525 <= siteNum <= 545) or (755 <= siteNum <= 756) or siteNum == 766 or (995 <= siteNum <= 996) or siteNum == 1256:
             provider = networkNubiles
 
         # BellaPass
@@ -2046,8 +2048,8 @@ def getProviderFromSiteNum(siteNum):
         elif siteNum == 671:
             provider = networkStrike3
 
-        # MissaX / AllHerLuv / AmateurBoxxx
-        elif siteNum == 672 or siteNum == 673 or siteNum == 1252:
+        # MissaX / AllHerLuv / AmateurBoxxx / Exposed Whores / She Seduced Me
+        elif siteNum == 672 or siteNum == 673 or siteNum == 1252 or (1254 <= siteNum <= 1255):
             provider = siteMissaX
 
         # Mylf
