@@ -83,7 +83,6 @@ def update(metadata, lang, siteNum, movieGenres, movieActors):
             actorPhotoURL = actorPhotoElement[0]
             if not actorPhotoURL.startswith('http'):
                 actorPhotoURL = PAsearchSites.getSearchBaseURL(siteNum) + actorPhotoURL
-
         movieActors.addActor(actorName, actorPhotoURL)
 
     # Genres

@@ -860,7 +860,7 @@ searchSites = {
     692: ('Butt Plays', 'http://www.21sextury.com', 'https://tsmkfa364q-dsn.algolia.net/1/indexes/*/queries'),
     693: ('Dorcel Vision', 'https://www.dorcelvision.com', '/en/search?type=4&keyword='),
     694: ('Feminized', 'http://feminized.com', '/tour/search.php?st=advanced&qany='),
-    695: ('XConfessions', 'https://xconfessions.com', '/api/search'),
+    695: ('X Confessions', 'https://xconfessions.com', '/api/search'),
     696: ('Czech Amateurs', 'https://czechamateurs.com', '/tour/search/?q='),
     697: ('Czech Bangbus', 'https://czechbangbus.com', '/tour/search/?q='),
     698: ('Czech Bitch', 'https://czechbitch.com', '/tour/search/?q='),
@@ -897,24 +897,24 @@ searchSites = {
     729: ('ArchAngel', 'https://www.archangelvideo.com', '/tour/search.php?query='),
     730: ('We Are Hairy', 'https://www.wearehairy.com', '/search/?query='),
     731: ('Love Her Feet', 'https://www.loveherfeet.com', '/tour/search.php?query='),
-    732: ('MomPOV', 'http://www.mompov.com', '/tour/?s='),
+    732: ('Mom POV', 'http://www.mompov.com', '/tour/?s='),
     733: ('Property Sex', 'https://www.propertysex.com', 'https://site-api.project1service.com'),
     734: (),
     735: ('Fucked and Bound', 'http://www.kink.com', '/search?channelIds=fuckedandbound&q='),
     736: ('Captive Male', 'http://www.kink.com', '/search?channelIds=captivemale&q='),
-    737: ('TransAngels', 'https://www.transangels.com', 'https://site-api.project1service.com'),
+    737: ('Trans Angels', 'https://www.transangels.com', 'https://site-api.project1service.com'),
     738: ('Girls Gone Pink', 'https://www.mofos.com', 'https://site-api.project1service.com'),
     739: ('Real Slut Party', 'https://www.mofos.com', 'https://site-api.project1service.com'),
     740: ('Mofos Lab', 'https://www.mofos.com', 'https://site-api.project1service.com'),
     741: ('Straplezz', 'https://straplezz.com', '/updates/'),
-    742: ('LittleCaprice', 'https://www.littlecaprice-dreams.com', '/?s='),
+    742: ('Little Caprice', 'https://www.littlecaprice-dreams.com', '/?s='),
     743: ('WowGirls', 'https://www.wowgirlsblog.com', '/?s='),
     744: ('VIPissy', 'https://www.vipissy.com', '/updates?search='),
-    745: ('GirlsOutWest', 'https://tour.girlsoutwest.com', '/trailers/'),
+    745: ('Girls Out West', 'https://tour.girlsoutwest.com', '/trailers/'),
     746: ('Girls Rimming', 'https://www.girlsrimming.com', '/tour/trailers/'),
     747: ('Gangbang Creampie', 'https://gangbangcreampie.com', '/tour/search.php?query='),
     749: ('Show My BF', 'https://tour.naughtyamerica.com', 'https://i6p9q9r18e-3.algolianet.com/1/indexes/*/queries'),
-    748: ('DadCrush', 'https://www.dadcrush.com', '/movies'),
+    748: ('Dad Crush', 'https://www.dadcrush.com', '/movies'),
     750: ('POV Massage', 'http://www.fantasymassage.com', '/en/search/'),
     751: ('Step Secrets', 'http://www.stepsecrets.com', 'https://www.stepsecrets.com/?query='),
     752: ('VRHush', 'https://www.vrhush.com', '/scenes/'),
@@ -1981,7 +1981,7 @@ def getProviderFromSiteNum(siteNum):
             provider = networkKink
 
         # Nubiles
-        elif (525 <= siteNum <= 545) or (755 <= siteNum <= 756) or siteNum == 766 or (995 <= siteNum <= 996) or siteNum == 1256:
+        elif (525 <= siteNum <= 545) or (755 <= siteNum <= 756) or siteNum == 766 or (995 <= siteNum <= 996)  or siteNum == 1256:
             provider = networkNubiles
 
         # BellaPass

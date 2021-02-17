@@ -31,7 +31,7 @@ def update(metadata, lang, siteNum, movieGenres, movieActors):
     metadata.title = detailsPageElements.xpath('//h1[@itemprop="headline"]//span/text()')[-1].lstrip("- ").strip()
 
     # Summary
-    metadata.summary = detailsPageElements.xpath('//div[contains(@class, "video-embed")]//p')[0].text_content().strip()
+    # metadata.summary = detailsPageElements.xpath('//div[contains(@class, "video-embed")]//p')[0].text_content().strip()
 
     # Release date
     dateObj = parse(detailsPageElements.xpath('//div[@class="post_date"]/text()')[0])
@@ -63,7 +63,8 @@ def update(metadata, lang, siteNum, movieGenres, movieActors):
 
     # Posters
     art = []
-    art.append(detailsPageElements.xpath('//img[contains(@class, "fp-splash")]/@src'))
+    for poster in detailsPageElements.xpath('//img[contains(@class, "fp-splash")]/@src'):
+        art.append(poster)
 
     Log('Artwork found: %d' % len(art))
     for idx, posterUrl in enumerate(art, 1):
